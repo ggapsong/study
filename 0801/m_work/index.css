@@ -1,0 +1,29 @@
+.blue_top{
+	width: 298px;
+	height: 0;
+	border: 1px solid #206F96;
+}
+.box{
+	width: 298px;
+	border: 1px solid #CFCFCF;
+	border-top: none;
+}
+.box .border_b{
+	border-bottom: 1px solid #ececec;
+}
+.box .div1{
+	height: 29px;
+	border-bottom-color: #CFCFCF;
+}
+.box .div2{
+	height: 56px;
+}
+.box .div3{
+	height: 125px;
+}
+.box .div4{
+	height: 75px;
+}
+.box .div5{
+	height: 127px;
+}

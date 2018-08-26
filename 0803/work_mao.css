@@ -1,0 +1,36 @@
+.b1{
+	width: 379px;
+	border: 1px solid #d4d0c7;
+	border-bottom: none;
+	border-right: none;
+}
+.b1 .b2{
+	border: 1px solid #404040;
+	border-left: none;
+	border-top: none;
+}
+.b3{
+	border: 1px solid #fff;
+	border-right: none;
+	border-bottom: none;
+}
+.b4{
+	border: 1px solid #808080;
+	border-top: none;
+	border-left: none;
+	background-color: #d4d0c7;
+}
+.b5{
+	background-color: #000;
+	background: url('img/head_bg.jpg') repeat-y;
+	font: 8px/18px "微软雅黑";
+	border: 1px solid #d4d0c7;
+	color: #ffffff;
+	text-indent: 2px;
+}
+.b6{
+	font: 12px/52px "微软雅黑";
+	height: 61px;
+	text-indent: 58px;
+	background: url('img/warning_03.png') no-repeat 11px 10px;
+}

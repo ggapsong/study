@@ -1,0 +1,115 @@
+body{
+	margin:0;
+	
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+img{
+	vertical-align: top;
+}
+.box{
+	width:360px;
+	margin:0 auto;
+	background-color: #2d3d40;
+}
+.box{
+	padding-top:20px;
+}
+.box .head .time{
+	font:34px/49px "微软雅黑";
+	color:#ffffff;
+	text-indent: 24px;
+}
+.head .year span{
+	font:13px/27px "微软雅黑";
+	color:#48d2f2;
+}
+.head .year {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #516164;
+}
+.head .year .Fyear{
+	padding-left:24px;
+	padding-right:5px;
+}
+.middle{
+	padding-top:12px;
+	width:334px;
+}
+.middle span{
+	font:13px/29px "微软雅黑";
+	color:#dfdfdf;
+	text-indent: 24px;
+}
+.list{
+	margin-left:11px;
+}
+.list  li[data-week]{
+	width:42px;
+	height:36px;
+	font:11px/36px "微软雅黑";
+	color:#fff;
+	text-align: center;
+	float: left;
+}
+.list li{
+	height:40px;
+	margin:1px;
+	width:46px;
+	text-align: center;
+}
+
+.list li button{
+	display: block;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	border:2px solid #2d3d40;
+	background-color: #2d3d40;
+}
+.list li button:hover{
+	border-color: #869295;
+}
+.list li button:focus{
+	border-color: #0099bc;
+}
+.list li.active button{
+	border-color: #0099bc;
+	background-color: #0099bc;
+}
+.list  .num{
+	display: block;
+	font:11px/15px "微软雅黑";
+	color:#ffffff;
+	padding-top:3px;
+}
+.list  .Bnum{
+	display: block;
+	font:10px/14px "微软雅黑";
+	color:#fff;
+}
+.list li.out .Bnum,.list li.out .num{
+	color: #7c898b;
+}
+.last{
+	font:13px/45px "微软雅黑";
+	color:#48d2f2;
+	height:45px;
+	margin-right:42px;
+	
+}

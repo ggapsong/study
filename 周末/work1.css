@@ -1,0 +1,50 @@
+ul,body{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+.box{
+	width: 500px;
+	border-bottom: 1px solid #000;
+}
+.box ul{
+	margin-bottom: -1px;
+}
+.box li{
+	font:14px/39px "宋体";
+	color:#f06000;
+	border:1px solid #0000f0;
+	border-bottom-color:#000;
+	padding-right:16px;
+	padding-left:15px;
+	margin-right: -1px;
+}
+.box li:hover{
+	border-color:#000;
+	position: relative;
+	z-index: 66;
+	border-bottom-color: #fff;
+}
+.border{
+	width: 113px;
+	border-bottom: 1px solid #000000;
+	padding-top: 39px;
+}
+

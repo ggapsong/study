@@ -1,0 +1,43 @@
+table{
+      border-collapse: collapse;
+}
+th,td{
+	padding:0;
+	text-align: center;
+	font-size:12px;
+}
+img{
+	vertical-align:middle;
+}
+
+.height{
+	height:4px;
+}
+.width{
+	width:172px;
+}
+.width2{
+	width:179px;
+}
+.width3{
+	width:95px;
+}
+.width4{
+	width:94px;
+}
+.width5{
+	width:76px;
+}
+.width6{
+	width:63px;
+}
+
+.height2{
+	height:30px;
+}
+.height3{
+	height:57px;
+}
+.red{
+	color:#cc0000;
+}

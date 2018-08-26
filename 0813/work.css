@@ -1,0 +1,38 @@
+img{
+	vertical-align: top;
+}
+.box{
+	width:751px;
+	margin-left:23px;
+	margin-right:32px;	
+}
+.header {
+    width:696px;
+	font: 17px/38px "微软雅黑";
+	color: #666666;
+	border-bottom:1px solid #dddddd;
+	padding-top:4px;
+}
+.header span{
+	float: right;
+}
+.content img{
+	padding-top:23px;
+}
+.content .first{
+	width:110px;
+	float: left;
+	padding-right:36px;
+}
+.content .first .word1{
+	font:14px/30px "微软雅黑";
+	color:#825d5b;
+}
+.content .first .word2{
+	font:12px/20px "微软雅黑";
+	color:#333333;
+}
+.content .first .word3{
+	font:11px/27px "微软雅黑";
+	color:#825d5b;
+}

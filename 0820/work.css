@@ -1,0 +1,63 @@
+img{
+	vertical-align:top;
+}
+ul,body{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.box{
+	width:958px;
+	border:1px solid #e0e0e0;
+}
+.box .title{
+	font:14px/37px "宋体";
+	color:#ffffff;
+	background:#6fa0d3;
+	text-indent:20px;
+}
+.content{
+	width:958px;
+	padding-top:50px;
+	margin-left:67px;
+	
+	
+}
+.content .left{
+	width:642px;
+	
+}
+.width{
+	width:414px;
+}
+
+.content .left .title_box{
+	height:32px;
+	border:1px solid #b5b5b5;
+}
+.content .left .title_box .left{
+
+	height:32px;
+	font:14px/30px "宋体";
+	color:#ffffff;
+	background: #226ab4;
+	
+}
+.content .left .title_box .right{
+	width:166px;
+	font:14px/30px "宋体";
+	color:#555555;
+}

@@ -1,0 +1,162 @@
+body,textarea{
+	margin:0;
+	padding:0;
+	
+}
+img{
+	vertical-align: top;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+	font-size:0;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+input{
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+form{
+	font-size: 12px;
+	line-height: 28px;
+}
+.first1{
+	margin-top:13px;
+}
+.first2{
+	margin-top:17px;
+}
+.first3{
+	margin-top:14px;
+}
+.first4{
+	margin-top:15px;
+}
+.width{
+	width: 259px;
+}
+.item label{
+	width:83px;
+	font:13px/28px "宋体";
+	color:#666666;
+	text-align: right;
+}
+.item .red{
+	color:#ff0074;
+}
+.item .first{
+	height:26px;
+	width:224px;
+	background-color: #f4ffd4;
+	border:1px solid #a5c760;
+	margin-left:11px;
+}
+.item textarea{
+	width: 222px;
+	height: 52px;
+	margin-left: 11px;
+	resize: none;
+}
+.item .word{
+	font:11px/24px "宋体";
+	color:#333333;
+    width:246px;
+	background-color: #f1ffd4;
+	border-radius: 4px;
+	text-indent: 24px;
+}
+.item .email{
+	float: left;
+	text-indent: 12px;
+	margin-right: 6px;
+}
+.item .change{
+	float: left;
+	color: #0082cb;
+}
+.item .bg{
+	background-color: #ffffff;
+	border:1px solid #c9c9c9;
+}
+.item .everb{
+	background-color: #fff;
+	font:11px/28px "宋体";
+	text-indent: 25px;
+}
+.item select{
+	float: left;
+	margin-top: 3px;
+	height: 20px;
+	border:1px solid #808080;
+	font:12px/18px "宋体";
+	color:#333333;
+	margin-left:13px;
+}
+.item .sel{
+	margin-left:9px;
+}
+
+.item .sex{
+	width: 12px;
+	height: 12px;
+	margin-top: 8px;
+	margin-left:12px;
+	color:#808080;
+}
+.item .nv{
+	margin-left:18px
+}
+.margin{
+	margin-top:24px;
+}
+.item .time{
+	color:#333333;
+	margin-right: 7px;
+}
+.city{
+	width: 64px;
+}
+.area{
+	width: 78px;
+}
+.year{
+	width: 53px;
+}
+.month{
+	width: 39px;
+}
+.line{
+	margin-top: 19px;
+	border-top: 1px dotted #9f9f9f;
+	width: 227px;
+	margin-left: 94px;
+	padding-top: 10px;
+	line-height: 33px;
+}
+.updata{
+	padding-top: 17px;
+	padding-left: 94px;
+}
+.updata input{
+	border: 1px solid #51a837;
+	background-color: #6cbb4a;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	line-height: 21px;
+	width: 52px;
+}

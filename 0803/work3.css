@@ -1,0 +1,36 @@
+.b1{
+	width:144px;
+	border:1px solid #9a9a9a;
+	background: #c0c0c0;
+}
+.b2{
+	font-size:12px;
+	line-height:18px;
+	text-indent:19px;
+	
+}
+.str{
+	background:url("img/pic_03.png") no-repeat 132px 6px ;
+}
+.correct{
+	background: url("img/pic_07.jpg") no-repeat 6px 6px ;
+}
+.dot{
+	background: url("img/pic_11.jpg") no-repeat 7px 6px ;
+}
+.ellipsis{
+	background: url("img/pic_15.png") no-repeat 121px 7px ;
+	}
+.div1{
+	margin: 3px 3px 4px;
+}
+.div1 div{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #fff;
+}
+.blue{
+	background:#3399fe;
+	border:3px solid #c0c0c0 ;
+	border-top:none;
+	border-bottom:none;
+}

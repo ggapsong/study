@@ -1,0 +1,13 @@
+    webstore  
+
+名字  按照它的作用
+      按照里面内容起名字
+      按照它的位置命名
+transparent   透明
+inhert:继承 
+font-weight 文字着重
+font-style 文字样式
+font-family 字体
+font-size文字大小 文字复合样式/行高
+
+

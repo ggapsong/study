@@ -1,0 +1,48 @@
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+img{
+	vertical-align: top;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+}
+h3{
+	margin:0;
+}
+.box{
+	width:968px;
+	border:1px solid #ffffff;
+	background: #f3f3f3;
+	padding:3px 10px 11px 10px;
+	font-size:0px;
+}
+.box .list{
+	border-bottom:1px solid #e2e2e2;
+}
+.box .list h3{
+	font:bold 12px/18px "微软雅黑";
+	color:#333333;
+	padding-right:29px;
+}
+.box .list .first{
+	font:12px/33px "微软雅黑";
+	color:#ffffff;
+	background: #0066cc;
+}
+.box .list li{
+	font:12px/33px "微软雅黑";
+	padding-left:21px;
+}
