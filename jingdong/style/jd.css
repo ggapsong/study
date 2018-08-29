@@ -1,0 +1,58 @@
+.take {
+  position: relative;
+  box-sizing: border-box;
+}
+.take:nth-of-type(2n) {
+  background-color: #eeefed;
+}
+.take:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  top: -8px;
+  right: 53px;
+}
+.take:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  bottom: -8px;
+  right: 53px;
+}
+.huiguang .bag {
+  padding-bottom: 20px;
+}
+.fashion {
+  text-align: center;
+}
+.fashion div {
+  font-size: 26px;
+  line-height: 90px;
+  color: #222222;
+  display: inline-block;
+  padding-top: 5px;
+}
+.fashion div:before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: #222222;
+  vertical-align: middle;
+  margin-right: 21px;
+}
+.fashion div:after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: #222222;
+  vertical-align: middle;
+  margin-left: 21px;
+}
