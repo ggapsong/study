@@ -1,36 +1,3 @@
-body {
-  margin: 0;
-  font-family: "微软雅黑";
-  background-color: #fcfcfc;
-}
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.fl {
-  float: left;
-}
-.fr {
-  float: right;
-}
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-h1,
-h3,
-h5 {
-  margin: 0;
-}
-img {
-  vertical-align: top;
-}
 .bg {
   background-color: #363636;
   border-top: 1px solid #181818;
@@ -256,10 +223,11 @@ img {
 .lastbg .last .cate div {
   font-size: 11px;
   line-height: 28px;
-  color: #fff;
+  color: #ddddd1;
 }
 .lastbg .last .cate div img {
   vertical-align: middle;
+  margin-right: 6px;
 }
 .get {
   width: 221px;
