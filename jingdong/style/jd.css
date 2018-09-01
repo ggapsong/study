@@ -56,3 +56,16 @@
   vertical-align: middle;
   margin-left: 21px;
 }
+.item4 .width4 {
+  margin-right: 10px;
+}
+.item4 .width4 .sport {
+  margin-bottom: 10px;
+}
+.item4 .width4 .box {
+  margin-right: 10px;
+  padding-bottom: 20px;
+}
+.item4 .p {
+  margin-left: 20px;
+}

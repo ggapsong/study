@@ -26,3 +26,9 @@ body {
   h1,h3{
     margin: 0;
   }
+  input{
+    outline: none;
+  }
+  textarea{
+    outline:none;
+  }

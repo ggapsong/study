@@ -1,0 +1,87 @@
+.bg {
+  background-color: #363636;
+  border-top: 1px solid #181818;
+  border-bottom: 1px solid #181818;
+}
+.bg .head {
+  width: 940px;
+  margin: 0 auto;
+  height: 58px;
+}
+.bg .head img {
+  padding-top: 15px;
+}
+.bg .head .nav {
+  font-size: 0;
+}
+.bg .head .nav span {
+  font-size: 10px;
+  line-height: 58px;
+  color: #ededed;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #181818;
+  border-right: 1px solid #181818;
+  display: inline-block;
+  margin-left: -1px;
+}
+.bg .head .nav span:hover {
+  background-color: #ca3232;
+}
+.item1 {
+  width: 940px;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+}
+.item1 div {
+  font-size: 13px;
+  line-height: 59px;
+  color: #999999;
+}
+.bg .item2 {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+.bg .item2 .title {
+  font-size: 36px;
+  line-height: 74px;
+  color: #fff;
+  padding-top: 23px;
+}
+.bg .item2 .title span {
+  color: #c93232;
+}
+.bg .item2 .content {
+  font-size: 9px;
+  line-height: 22px;
+  color: #aaaaaa;
+  padding-bottom: 40px;
+}
+.content {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.content ul li {
+  width: 640px;
+  background-color: #fff;
+}
+.content ul li .pic {
+  margin-right: 20px;
+}
+.content ul li .l {
+  width: 399px;
+}
+.content ul li .l h3 {
+  font-size: 15px;
+  line-height: 25px;
+  color: #cc3232;
+  padding-top: 15px;
+  border-bottom: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+}
+.content ul li .l .p {
+  font-size: 11px;
+  line-height: 20px;
+}
