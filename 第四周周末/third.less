@@ -64,7 +64,7 @@
   .item{
       width:940px;
       margin:0 auto;
-     .right{
+     .left{
          width:614px;
          .why{
              font-size:21px;
@@ -73,20 +73,41 @@
              margin-top:20px;
          }
          .morbi{
-             font-size:9px;
+             font-size:12px;
              line-height: 15px;
              color:#333333;
              margin-bottom: 23px;
          }
          .nav{
-             border:1px solid #ededed;
+             border-left:1px solid #ededed;
              width:290px;
              span{
                  font-size:9px;
                  line-height: 25px;
                  color:#333;
-                 padding-right:15px;
+                 border-top:1px solid #ededed;
+                 border-bottom:1px solid #ededed;
+                 padding-right:27px;
                  padding-left:15px;
+                 position: relative;
+                 &:after{
+                   content: '';
+                   position: absolute;
+                   width: 11px;
+                   height: 25px;
+                   background: url('./images/qian.jpg') no-repeat;
+                   right: 0;
+                   top: 0;
+                 }
+                 &:nth-last-of-type(1){
+                  padding-right:15px;
+                  &:after{
+                    right: -11px;
+                  }
+                 }
+             }
+             .red{
+               color: #c93232;
              }
          }
          .box_c{

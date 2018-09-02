@@ -1,22 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="yidong.css">
     <script>
-        var num = 1/window.devicePixelRatio;
-        document.write('<meta name="viewport" content="width=device-width, initial-scale='+ num +',maxmum-scale='+ num +',minmum-scale='+ num +',user-scalable=no">');
-        
+        var num = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width, initial-scale=' + num + ',maxmum-scale=' +
+            num + ',minmum-scale=' + num + ',user-scalable=no">');
         var html = document.documentElement;
-        html.style.fontSize = html.clientWidth/25  + 'px';
+        html.style.fontSize = html.clientWidth / 25 + 'px';
     </script>
 </head>
+
 <body>
-    <div class="header">
-          <div class="return">
-          </div>
+    <header class="head clearfix">
+        <div class="fl sprite return"></div>
+        <div class="logo-box">
+            <h1>
+                <img src="./images/logo.png" alt="">
+            </h1>
+        </div>
+        <div class="fr head-right">
+
+            <div class="fl text">
+                退出
+            </div>
+
+            <div class="fl sprite right">
+
+            </div>
+        </div>
+    </header>
+    <div class="user-info">
+        <div class="user_head">
+            <img src="./images/user-head.png" alt="">
+        </div>
+        <div class="user-name">
+            <span>我是程序员</span><span class="sprite far"></span>
+        </div>
+        <div class="time">
+            注册时间：2016-01-27
+        </div>
+    </div>
+    <div class="menu-head">
+        个人资料
+    </div>
+    <div>
+        <ul class="menu-list clearfix">
+            <li>
+                <div class="sprite item1">基本信息</div>
+                <div class="text">基本信息</div>
+            </li>
+            <li>
+                <div class="sprite item2">个人信息</div>
+                <div class="text">个人信息</div>
+            </li>
+            <li>
+                <div class="sprite item3">VIP信息</div>
+                <div class="text">VIP信息</div>
+            </li>
+            <li>
+                <div class="sprite item4">我的订单</div>
+                <div class="text">我的订单</div>
+            </li>
+            <li>
+                <div class="sprite item5">视频激活记录</div>
+                <div class="text">视频激活记录</div>
+            </li>
+            <li>
+                <div class="sprite item6">视频激活设备</div>
+                <div class="text">视频激活设备</div>
+            </li>
+            <li>
+                <div class="sprite item7">绑定账号</div>
+                <div class="text">绑定账号</div>
+            </li>
+            <li class="sp">
+                <div class="sprite item8">more</div>
+            </li>
+        </ul>
+    </div>
+    <div class="menu-head">
+        安全设置
+    </div>
+    <div>
+        <ul class="menu-list clearfix safe">
+            <li>
+                <div class="sprite item9">修改密码</div>
+                <div class="text">修改密码</div>
+            </li>
+            <li>
+                <div class="sprite item10">修改绑定邮箱</div>
+                <div class="text">修改绑定邮箱</div>
+            </li>
+
+        </ul>
     </div>
 </body>
+
 </html>

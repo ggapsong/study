@@ -62,33 +62,54 @@
   width: 940px;
   margin: 0 auto;
 }
-.item .right {
+.item .left {
   width: 614px;
 }
-.item .right .why {
+.item .left .why {
   font-size: 21px;
   line-height: 61px;
   color: #333333;
   margin-top: 20px;
 }
-.item .right .morbi {
-  font-size: 9px;
+.item .left .morbi {
+  font-size: 12px;
   line-height: 15px;
   color: #333333;
   margin-bottom: 23px;
 }
-.item .right .nav {
-  border: 1px solid #ededed;
+.item .left .nav {
+  border-left: 1px solid #ededed;
   width: 290px;
 }
-.item .right .nav span {
+.item .left .nav span {
   font-size: 9px;
   line-height: 25px;
   color: #333;
-  padding-right: 15px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding-right: 27px;
   padding-left: 15px;
+  position: relative;
 }
-.item .right .box_c {
+.item .left .nav span:after {
+  content: '';
+  position: absolute;
+  width: 11px;
+  height: 25px;
+  background: url('images/qian.jpg') no-repeat;
+  right: 0;
+  top: 0;
+}
+.item .left .nav span:nth-last-of-type(1) {
+  padding-right: 15px;
+}
+.item .left .nav span:nth-last-of-type(1):after {
+  right: -11px;
+}
+.item .left .nav .red {
+  color: #c93232;
+}
+.item .left .box_c {
   font-size: 9px;
   line-height: 20px;
   color: #333;
@@ -96,13 +117,13 @@
   margin-top: -1px;
   width: 615px;
 }
-.item .right .box_c .m {
+.item .left .box_c .m {
   width: 564px;
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 18px;
 }
-.item .right .box_c .f {
+.item .left .box_c .f {
   width: 564px;
   margin: 0 auto;
   padding-bottom: 20px;
