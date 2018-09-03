@@ -1,0 +1,153 @@
+img {
+  vertical-align: top;
+}
+.headbg {
+  background: linear-gradient(#d93e35, #ff594a);
+  height: 4.5833rem;
+  padding-top: 0.3333rem;
+  padding: 0.3333rem 0.1389rem 0;
+}
+.headbg .head {
+  display: flex;
+  width: 9.3241rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.headbg .head i {
+  display: block;
+}
+.headbg .head .center {
+  display: flex;
+  width: 3.1574rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.headbg .nav {
+  width: 7.3426rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font: 600 0.2963rem/0.537rem "微软雅黑";
+  color: #fff;
+  margin-top: 0.5093rem;
+}
+.headbg .nav span {
+  position: relative;
+  padding: 0 0.037rem 0.0463rem;
+  color: #fadad8;
+}
+.headbg .nav .active {
+  color: #fff;
+}
+.headbg .nav .active:after {
+  content: "";
+  width: 0.6852rem;
+  height: 0.0463rem;
+  background-color: #fff;
+  border-radius: 0.0185rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.banner {
+  margin: 0 auto;
+  width: 10rem;
+  margin-top: -2.3611rem;
+  position: relative;
+  border-radius: 0.0556rem;
+}
+.banner li {
+  width: 9.7222rem;
+  padding: 0 0.1389rem;
+}
+.banner li img {
+  width: 100%;
+  height: 100%;
+}
+.banner .dot {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0.213rem;
+  width: 10rem;
+}
+.banner .dot span {
+  width: 0.1667rem;
+  height: 0.1667rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0 0.0741rem;
+}
+.banner .dot .red {
+  background-color: #cb544f;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.4907rem;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e2e3e4;
+}
+.list li {
+  width: 1.1111rem;
+}
+.list li .color {
+  height: 1.1111rem;
+  background-color: #f44d41;
+  border-radius: 50%;
+  display: flex;
+}
+.list li .color .img {
+  margin: auto;
+}
+.list li .text {
+  font: 0.25rem/0.6389rem "微软雅黑";
+  color: #323233;
+  text-align: center;
+}
+.tuijian {
+  margin-left: 0.1574rem;
+  margin-top: 0.2315rem;
+}
+.tuijian span {
+  color: #343435;
+  font-size: 0.3426rem;
+  line-height: 1.0648rem ;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  margin-right: 20px;
+}
+.tuijian img {
+  margin-top: 0.3796rem;
+  width: 0.1852rem;
+}
+.song_list {
+  width: 9.713rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.song_list li {
+  width: 3.1944rem;
+  height: 4.5463rem;
+}
+.song_list li img {
+  width: 3.1944rem;
+}
+.song_list li div {
+  font-size: 0.25rem;
+  line-height: 0.6574rem;
+  color: #323233;
+}
+.broadcast {
+  position: fixed;
+  background-color: #fff;
+  border-top: 0.0093rem solid  #e6e6e6;
+  height: 1.1204rem;
+  bottom: 0;
+  width: 10rem;
+  left: 0;
+  font-size: 0.2778rem;
+}
