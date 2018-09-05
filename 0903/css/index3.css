@@ -1,0 +1,253 @@
+.header_bg {
+  background: linear-gradient(#281d13, #241a11);
+}
+.header_bg .head {
+  display: flex;
+  width: 9.4444rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 1.1944rem;
+  align-items: center;
+}
+.header_bg .head .left {
+  display: flex;
+}
+.header_bg .head .left .return {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: 0 0;
+  margin-right: 0.0926rem;
+}
+.header_bg .head .left .gedan {
+  font-size: 0.3704rem;
+  line-height: 0.6574rem;
+  color: #fff;
+  font-family: 微软雅黑;
+}
+.header_bg .head .right {
+  display: flex;
+}
+.header_bg .head .right .search {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -0.6481rem 0;
+  margin-right: 0.0926rem;
+}
+.header_bg .head .right .more {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -1.2963rem 0;
+}
+.header_bg .user_info {
+  display: flex;
+  margin-top: 0.4815rem;
+}
+.header_bg .user_info .pic {
+  width: 2.9074rem;
+  height: 2.9074rem;
+  margin-left: 0.463rem;
+}
+.header_bg .user_info .user {
+  margin-left: 0.4074rem;
+}
+.header_bg .user_info .user .like {
+  font-size: 0.3704rem;
+  line-height: 0.8704rem;
+  color: #fff;
+  font-family: 微软雅黑;
+  margin-bottom: 0.3981rem;
+}
+.header_bg .user_info .info {
+  display: flex;
+}
+.header_bg .user_info .info .m {
+  width: 0.6111rem;
+  height: 0.6111rem;
+  margin-right: 0.2222rem;
+}
+.header_bg .user_info .info .name {
+  font-size: 0.2778rem;
+  line-height: 0.6111rem;
+  color: #d6d4d2;
+  font-family: 微软雅黑;
+}
+.header_bg .user_info .info .n {
+  width: 0.1204rem;
+  height: 0.213rem;
+  margin-top: 0.1944rem;
+  margin-left: 0.1574rem;
+}
+.header_bg .select {
+  width: 7.6944rem;
+  margin: 0 auto;
+  margin-top: 0.537rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header_bg .select .item {
+  width: 0.6481rem;
+}
+.header_bg .select .item .notice {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -1.9444rem 0;
+}
+.header_bg .select .item .word {
+  font-size: 0.2407rem;
+  line-height: 0.5648rem;
+  color: #bdbab7;
+  font-family: 微软雅黑;
+  margin-left: 0.0833rem;
+  padding-bottom: 0.1667rem;
+}
+.song_head {
+  background-color: #fbfcfd;
+  background-size: cover;
+  height: 0.8982rem;
+  border-bottom: 0.0185rem solid #eff0f1;
+  margin-top: 0.2222rem;
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+.song_head .song_headbox {
+  display: flex;
+  height: 0.6481rem;
+  margin-left: 0.3241rem;
+}
+.song_head .song_headbox i {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  display: block;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -4.537rem 0;
+  margin-right: 0.2778rem;
+}
+.song_head .song_headbox span {
+  font-size: 0.3426rem;
+  line-height: 0.6204rem;
+  color: #323233;
+  font-family: 微软雅黑;
+}
+.song_list {
+  background-color: #fbfcfd;
+}
+.song_list .item {
+  margin-top: 0.2222rem;
+  display: flex;
+  height: 1.2778rem;
+}
+.song_list .item .num {
+  font-size: 0.2963rem;
+  line-height: 0.8704rem;
+  color: #979798;
+  font-family: 微软雅黑;
+  width: 1.1574rem;
+  display: flex;
+  justify-content: center;
+}
+.song_list .item .info {
+  display: flex;
+  width: 9.0463rem;
+  justify-content: space-between;
+  border-bottom: 0.0185rem solid #eff0f1;
+  height: 1.037rem;
+}
+.song_list .item .info .song_info {
+  height: 0.963rem;
+}
+.song_list .item .info .song_info .song_name {
+  font-size: 0.3148rem;
+  line-height: 0.4259rem;
+  color: #353536;
+  font-family: 微软雅黑;
+}
+.song_list .item .info .song_info .songer {
+  height: 0.537rem;
+  font-size: 0;
+}
+.song_list .item .info .song_info .songer img {
+  width: 0.3241rem;
+  height: 0.213rem;
+  margin-right: 0.0833rem;
+}
+.song_list .item .info .song_info .songer span {
+  font-size: 0.2407rem;
+  line-height: 0.537rem;
+  color: #7e7e7f;
+  font-family: 微软雅黑;
+}
+.song_list .item .info .right_bo {
+  display: flex;
+  padding-right: 0.2778rem;
+}
+.song_list .item .info .right_bo .first {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  display: block;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -6.4815rem 0;
+  margin-right: 0.1667rem;
+}
+.song_list .item .info .right_bo .second {
+  width: 0.6481rem;
+  height: 0.6481rem;
+  display: block;
+  background: url("../images/img4.png") no-repeat;
+  background-size: 8.4259rem;
+  background-position: -5.8333rem 0;
+}
+.broadcast {
+  position: fixed;
+  background-color: #fff;
+  border-top: 0.0093rem solid  #e6e6e6;
+  bottom: 0;
+  width: 10rem;
+  left: 0;
+  height: 1.1204rem;
+  font-size: 0.2778rem;
+}
+.broadcast .broadcast_list {
+  height: 2.7778rem;
+  margin: 0.1204rem 0 0 0.1389rem;
+}
+.broadcast .broadcast_list .pic {
+  height: 0.8519rem;
+  margin-right: 16px;
+}
+.broadcast .broadcast_list .songer {
+  font-size: 0.287rem;
+  line-height: 0.4537rem;
+  color: #333333;
+}
+.broadcast .broadcast_list .nex {
+  font-size: 0.2315rem;
+  line-height: 0.3796rem;
+  color: #808080;
+}
+.broadcast .start {
+  width: 1.5648rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.1296rem;
+  margin-right: 0.3241rem;
+}
+.broadcast .start .y {
+  width: 0.6111rem;
+  height: 0.6111rem;
+}
+.broadcast .start .e {
+  width: 0.463rem;
+  height: 0.3981rem;
+  margin-top: 0.1389rem;
+}

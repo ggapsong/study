@@ -206,3 +206,12 @@ img {
   justify-content: space-between;
   margin-top: 0.1296rem;
 }
+.broadcast .start .y {
+  width: 0.6111rem;
+  height: 0.6111rem;
+}
+.broadcast .start .e {
+  width: 0.463rem;
+  height: 0.3981rem;
+  margin-top: 0.1389rem;
+}
