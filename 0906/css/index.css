@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200 px;
+  background-color: #c7d8f3;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+.box:hover {
+  transform: rotateX(200deg) rotateY(200deg);
+}
+.box .item {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box .item1 {
+  transform-origin: left center;
+  transform: translateZ(50px) rotateY(90deg);
+}
+.box .item2 {
+  transform-origin: right center;
+  transform: translateZ(50px) rotateY(-90deg);
+}
+.box .item3 {
+  transform-origin: center top;
+  transform: translateZ(50px) rotateX(-90deg);
+}
+.box .item4 {
+  transform-origin: center bottom;
+  transform: translateZ(50px) rotateX(90deg);
+}
+.box .item5 {
+  transform: translateZ(-50px);
+}
+.box .item6 {
+  transform: translateZ(50px);
+}
