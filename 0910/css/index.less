@@ -1,0 +1,307 @@
+.width {
+  width: 986px;
+  margin: 0 auto;
+}
+.body {
+  background-color: #fff;
+}
+// 以下是头部
+.header_bg {
+  background-color: #fff;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      margin-top: 9px;
+    }
+    .nav_box {
+      display: flex;
+      // margin-bottom:1px;
+      margin-top: 4px;
+      .border {
+        border-bottom: 3px solid #ff6600;
+      }
+      .nav {
+        width: 60px;
+        text-align: center;
+        margin-right: 33px;
+        border-bottom: 3px solid transparent;
+        position: relative;
+        &:first-child {
+          border-bottom: 3px solid #ff6600;
+        }
+
+        
+       
+        a {
+          font: 20px/62px "欸软雅黑";
+          color: #858585;
+        }
+        &:hover a{
+            color: #ff976d;
+        }
+        &:hover .list {
+          display: block;
+        }
+
+        .list {
+          width: 142px;
+          border: 1px solid #f6f6f6;
+          box-shadow: 0 0 3px #e6e6e4;
+
+          display: none;
+          position: absolute;
+          top: 65px;
+          right: -35px;
+          z-index: 1;
+          .stri {
+            width: 14px;
+            height: 14px;
+            background-color: #fff;
+            border-color: transparent;
+            left: 63px;
+            transform: rotate(45deg);
+            top: -7px;
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 0 3px #e6e6e4 ;
+          }
+
+          li {
+            background-color: #fff;
+            a {
+              width: 100%;
+              font: 14px/34px "微软雅黑";
+              color: #b8b8b8;
+              display: block;
+            }
+            &:hover a {
+              color: #fe9566;
+              background-color: #f6f6f6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 以下是轮播图
+.banner {
+  // width:100%;
+  overflow: hidden;
+  ul {
+    display: flex;
+    width: 100%;
+    display: flex;
+    animation: move 10s infinite;
+    @keyframes move {
+      0% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(-200%);
+      }
+      75% {
+        transform: translateX(-300%);
+      }
+      99% {
+        transform: translateX(-400%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+// 以下是第三部分
+.download_box {
+  height: 171px;
+  .download {
+      display: flex;
+    .code {
+      width: 100px;
+      // margin:0 auto;
+      a:first-child {
+      }
+      a:last-child {
+        font: 12px/30px "微软雅黑";
+        color: #999999;
+      }
+    }
+    .load{
+       li{
+           width:100px;
+           height:80px;
+           background:url("../images/sprite_uc_ios.png") no-repeat;
+           animation: back 0.2s steps(11) forwards;
+       }
+       li:hover{
+        animation: move 0.2s steps(11) forwards;
+    }
+    @keyframes move {
+        0%{
+            background-position: 0 0;
+        }
+        100%{
+            background-position: right 0;
+        }
+    }
+    @keyframes back {
+        0%{
+            background-position: -1100px 0;
+        }
+        100%{
+            background-position: 0 0;
+        }
+    }
+
+    }
+  }
+}
+// 以下是第四部分
+.news_box {
+  .new {
+    display: flex;
+    .item {
+      width: 290px;
+      margin-right: 58px;
+      height:390px;
+      .title {
+        color: #8f8f8f;
+
+        span:nth-of-type(1) {
+          font: 19px/60px "微软雅黑";
+        }
+        span:nth-of-type(2) {
+          font: 14px/60px "微软雅黑";
+        }
+      }
+      .pic {
+        height: 120px;
+      }
+      .info {
+        background-color: #d1d1cf;
+        margin-bottom: 9px;
+
+        a {
+          display: block;
+          font: 14px/34px "微软雅黑";
+          color: #717171;
+          text-align: center;
+          overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        }
+        &:hover a {
+            color: #f00;
+          }
+      }
+
+      .word {
+        a {
+          font: 14px/26px "微软雅黑";
+          color: #a0a0a0;
+          &:hover {
+            color: #f00;
+          }
+        }
+      }
+    }
+  }
+}
+//  以下是尾部
+.last_bg{
+    background-color: #333333;
+    // 以下是尾部的第一部分
+    .last{
+        display: flex;
+        border-bottom: 1px dotted #555555;
+        li{
+            width:138px;
+            margin-right:26px;
+            margin-top:28px;
+            height:257px;
+            div{
+                font:11px/19px "微软雅黑";
+                color:#909090;
+               
+            }
+            .border{
+                width:136px;
+                height:22px;
+                border:1px solid #434343;
+                display: flex;
+                margin-bottom: 17px;
+                div{
+                    height:15px;
+                    width:15px;
+                    background:url("../images/earch_03.png") no-repeat;
+                    margin:3px 6px 0 8px;
+                }
+              
+            }
+            :hover a{
+                color:#f00;
+            }
+            .ip{
+                display: flex;
+                font:11px/19px "微软雅黑";
+                color:#909090;
+                height:27px;
+                div{
+                    width:16px;
+                    height:16px;
+                    margin-right:4px;
+                    background:url("../images/dia_03.png") no-repeat; 
+                }
+                div:nth-of-type(2){
+                    background:url("../images/dia_07.png") no-repeat; 
+                }
+            }
+        
+       
+        }
+    }
+    // 以下是尾部的第二部分
+    .web{
+        border-bottom: 1px dotted #555555;
+        display: flex;
+        div{
+
+            a{
+                font:12px/37px "微软雅黑";
+                color:#ababab;
+                border-right:1px solid #666666;
+                padding:0 8px;
+                &:hover{
+                    color:#f00;
+                }
+            }
+           
+        }
+        .no{
+            border-right: none !important;
+
+        }
+    }
+    // 以下是尾部的第三部分
+    .link{
+        font:12px/37px "微软雅黑";
+        color:#ababab;
+        border-bottom: 1px dotted #555555;
+        span{
+            margin-left:8px;
+        }
+        a{
+         padding:0 8px;
+            border-right:1px solid #666666;
+            &:hover{
+                color:#f00;
+            }
+        }
+        
+    }
+}
