@@ -359,3 +359,26 @@
   line-height: 9px;
   color: #9e9f9e;
 }
+.ended {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+.ended li {
+  background-color: #eeeeee;
+  width: 103px;
+  height: 32px;
+  display: flex;
+  font: 12px/12px "宋体";
+  color: #666666;
+  padding-left: 2px;
+  padding-top: 2px;
+  margin-right: 6px;
+}
+.ended li .words {
+  margin-top: 2px;
+  margin-left: 12px;
+}
+.ended li .special {
+  margin-left: 4px;
+}

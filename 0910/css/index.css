@@ -118,13 +118,13 @@
   font: 12px/30px "微软雅黑";
   color: #999999;
 }
-.download_box .download .load li {
+.download_box .download .load li .uc {
   width: 100px;
   height: 80px;
   background: url("../images/sprite_uc_ios.png") no-repeat;
   animation: back 0.2s steps(11) forwards;
 }
-.download_box .download .load li:hover {
+.download_box .download .load .uc:hover {
   animation: move 0.2s steps(11) forwards;
 }
 @keyframes move {
