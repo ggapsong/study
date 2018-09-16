@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+1.介绍一下标准的CSS的盒子模型？低版本IE的盒子模型有什么不同的？
+contant+padding+border+margin
+
+
+2.CSS优先级算法如何计算？
+div 1 
+class 10
+id 100
+style 1000
+3.如何使用CSS sprites？为什么要使用CSS sprites？
+    减少请求，
+
+4.position的absolute与fixed区别
+
+绝对定位如果给偏移量，那么它是相对于整个document来发生偏移的
+绝对定位在有定位父级的
+5. 常用那几种浏览器测试？有哪些内核(Layout Engine)?
+Chrome 
+IE
+
+6. 说下行内元素和块级元素的区别？
+    内联元素：
+    1.不支持宽高
+    2.不支持上下margin
+    3.只能由内容撑开宽度
+    4.代码换行会被解析成一个空格
+    5.同排可以继续跟同类型的标签
+    块元素：
+    1.支持所有css命令
+    2.独占一行
+    3.支持宽高
+    内联块：
+    1.代码换行被解析
+    2.让内联支持宽高
+    3.让块元素可以横向排列
+
+7.清除浮动有哪些方式？比较好的方式是哪一种？
+    1.给父级高度
+    3.BFC
+    4.after清浮动
+
+8.CSS如何实现让未知宽高盒子垂直水平居中？
+.display:flex;justify-content:center;aline-item:center;
+让一个未知宽高的元素上下左右都居中方法一：
+    1, 把元素转换成内联块元素
+    2，父级设置文字居中（此时元素已经左右居中了）
+    3，在父级中加入一个高度100%的内联块元素，宽度设为0（参考元素）
+    4，给要居中的元素和参考元素都设置vertical-align:middle;
+
+方法二：
+    1, 把元素转换成内联块元素
+    2，父级设置文字居中（此时元素已经左右居中了）
+    3，给父级设置一个和父级高度一行的行高
+    4，给要居中的元素设置vertical-align:middle;
+
+方法三：
+    1, 给要居中的元素设置绝对定位，并且上下左右方向的偏移值都给0，并且设置margin:auto;
+    2, 父级相对定位
+
+
+
+
+9.rgba()和opacity的透明效果有什么区别？
+        opacity: 让整个元素以及元素的子元素全部变成半透明
+        
+        rgba();  它只是让颜色变成半透明（不会被继承）
+10.px和em的区别
+px 是绝对单位
+em是相对单位 相对与当前文字的字体大小
+
+11.Less是什么？大家为什么要使用他们？
+less是css预处理语言
+
+12.知道css有个content属性吗？有什么用？有什么应用？
+是after及before伪元素里面的一个属性，可以用于html中填充内容
+字体图标
+
+13 、怎么让Chrome支持小于12px 的文字？
+tranform:scale(num/12)
+
+14、如果需要手动写动画，你认为最小时间间隔是多久，为什么？
+
+
+15. 请分别列举 5 个 HTML5 新增的元素和 5 个 CSS3 新增属性
+html
+header footer nav section aside
+
+css
+transform transition animation
+box-shadow text-shadow grid flex 
+
+
+16.如何用grid写一个左右固定，中间自适应的三栏式布局？
+
+
+17.
+    .box{
+        box-sizing: border-box;
+        width:100px;
+        padding:100px;
+        margin:20px;
+        background: #2d8391;
+    }
+
+问题：上述代码中box的可视宽度是？
+    200px
+
+18.下面样式中，哪些可以触发BFC   A B C 
+    A. float:left
+    B. position:fixed
+    C. overflow:scroll
+    D. visibility:visible
+
+    
+19.要修改span1的样式  操作正确的是？D
+    <div class="box">
+        <h2><span>span0</span></h2>
+        <p>
+            <span>span1</span>
+            <span>span2</span>
+        </p>
+        <p>
+            <span>span3</span>
+        </p>
+    </div>
+
+    A:  .box span:nth-child(1){} span0,span1,span3
+    B:  .box span:nth-of-type(1){} span 0 span1 span 3
+    <!-- C:  .box p:nth-child(1) span:nth-of-type(1){}  -->
+    D:  .box p:nth-of-type(1) span:nth-of-type(1){} span1
+
+20.下列影响，不属于浮动造成的是？D
+    A. 提升层级
+    B. 脱离文档流
+    C. 阻止margin传递
+    D. 不设置宽度，宽度可以由内容撑开
+
+
+21.以下代码中，div1的宽度是多少？40px
+    @w:240px;
+    .box{
+        display: flex;
+        width:@w;
+    }
+    .loop(@n)when(@n>0){
+        .loop(@n - 1);
+        .div@{n}{
+            flex:@n;
+        }
+    }
+    .loop(3);
+
+    <div class="box">
+        <div class="div1">q</div>
+        <div class="div2">q</div>
+        <div class="div3">q</div>
+    </div>
+
+22.当屏幕宽度为750px, 像素比为 2 时，10vw等于多少？
+
+23.关于bootstrap3 的栅格系统下列说法正确的是？ B 
+    A. 在bootstrap 一行可以分为24个格子 12
+    B. sm对应的响应式设置为：@media all and(min-width:768px){}
+    C. xs对应的响应式设置为：@media all and(max-width:768px){}
+    D. md对应的响应式设置为：@media all and(min-width:992px) and(max-width:1200px){}
+
+24.下列说法正确的是？B
+    A. <p></p>标签中可以包含<h2></h2>标签
+    B. 给元素加了overflow:hidden之后，元素的子元素浮动了，依然可以撑开父级的高度
+    C. 两个<div></div>元素默认会在一行显示
+    D. 元素绝对定位之后，只会根据有相对定位的父级来计算自己的left、top
+
+25.下列说法错误的是 D
+    A. viewport不设置的时候，视口宽度默认是980
+    B. viewport的缩放比例设置的数值越大，视口宽度越小
+    C. 像素比越大，视口宽度相对越小
+    D. 只要使用了rem单位，不同视口大小下页面会自动缩放
+
+</body>
+</html>
